@@ -3,8 +3,6 @@ from discord.ext import commands
 
 gateway = True
 
-bad_words = ['блять','пизда','хуй','жопа','пенис','долбаеб','сука','error404','уебан','пидорас']
-
 client = commands.Bot(command_prefix = "_")
 client.remove_command('help')
 
